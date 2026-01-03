@@ -1,0 +1,63 @@
+/* Comprar */
+.btn-comprar {
+    width: 100%;
+    padding: 8px;
+    background: #fc0404;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-comprar:hover {
+    background: #057c05;
+}
+
+.link-produto {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* Controle */
+.controle-qtd {
+    display: flex;
+    align-items: center;
+    background: #057c05;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.controle-qtd button {
+    width: 36px;
+    height: 34px;
+    border: none;
+    background: #057c05;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.controle-qtd button:hover {
+    background-color: #075a07;
+    border-radius: 20px;
+}
+
+.controle-qtd .qtd {
+    flex: 1;
+    background: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.acao-carrinho {
+    margin-top: 10px;
+}
+
+.link-produto {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
