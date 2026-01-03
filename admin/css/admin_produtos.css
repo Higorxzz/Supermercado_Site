@@ -1,0 +1,112 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FUNDO DA PÁGINA */
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTAINER DO FORM */
+.admin-form-container {
+    background: #fff;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+/* TÍTULO */
+.admin-form-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #e30613;
+}
+
+/* FORM */
+.admin-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* INPUTS E TEXTAREA */
+.admin-form-container input,
+.admin-form-container textarea,
+.admin-form-container select {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* TEXTAREA */
+.admin-form-container textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* FOCUS */
+.admin-form-container input:focus,
+.admin-form-container textarea:focus {
+    outline: none;
+    border-color: #e30613;
+    box-shadow: 0 0 5px rgba(227, 6, 19, 0.3);
+}
+
+/* LABELS */
+.admin-form-container label {
+    font-size: 13px;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* INPUT FILE */
+.admin-form-container input[type="file"] {
+    padding: 6px;
+    border: none;
+}
+
+/* BOTÃO */
+.admin-form-container button {
+    margin-top: 15px;
+    padding: 12px;
+    background: #e30613;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HOVER BOTÃO */
+.admin-form-container button:hover {
+    background: #057c05;
+    transform: translateY(-1px);
+}
+
+.admin-form-container select:focus {
+    outline: none;
+    border-color: #e30613;
+    box-shadow: 0 0 5px rgba(227, 6, 19, 0.3);
+}
+
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+    .admin-form-container {
+        margin: 15px;
+        padding: 20px;
+    }
+}
